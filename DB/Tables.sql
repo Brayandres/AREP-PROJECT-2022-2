@@ -43,7 +43,7 @@ Queries:
 - Proposals with highest success rate in certain time of the day
 */
 CREATE TABLE SolutionsHistory (
-	solutionsHistoryId SMALLINT 	 NOT NULL,	
+	solutionsHistoryId SMALLINT 	 NOT NULL AUTO_INCREMENT,	
 	sectionId 	       SMALLINT 	 NOT NULL,
 	reportDatetime     DATETIME 	 NOT NULL,
 	proposedSolution   SMALLINT		 NOT NULL,
